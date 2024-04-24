@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="app.css">
+  <title>Title</title>
+</head>
+
+
+<body>
+<header class="wrapper" >
+  <nav>
+    <ul>
+      <li><a href="#information">Информация обо мне</a></li>
+      <li><a href="#skils">Умения</a></li>
+      <li><a href="#work history">Места где работал </a></li>
+    </ul>
+  </nav>
+</header>
+// Зачем нужна картинка space если она не юзается?
+
+<main class="app">
+   // Все id заменяй на классы, пиши только классы
+  <section id="start">
+    // Классы называй по-нормальному, папку с картинками тоже
+    <h1 class="bigword">Резюме</h1>
+    <p class="kek">Это моё резюме, где есть информация обо мне, где я работал и на каких должностях.</p>
+  </section>
+
+  <section id="information">
+    <h2 class="bigword">Обо мне</h2>
+    <p>Привет, меня зовут Ян, в данный момент мне 15 лет(01.11.2008).<br>
+      Учусь в 9 классе.<br>
+      Хочу работать в вашей
+      // Страйк убрать, вроде уже писал это
+      <strike>компании</strike>
+      потому что лучше вариантов нет. Занимаюсь frontend разработкой более 7 лет.<br>
+    <p class="link">Проживаю в городе Воронеж</p>
+    <p>Есть гражданство в России</p>
+
+  </section>
+
+  <section id="skils">
+    <h3 class="bigword">Мои умения</h3>
+    Знаю Английский язык на уровне <b>B2</b><br>
+    Умение работать в команде<br>
+  </section>
+
+  <figure>
+    <img src="imgages/heisenbergpixelart.png" width="300px" height="300px" title="Это я"
+         alt="Picture heisenberg">
+    <figcaption>Моё фото :</figcaption>
+  </figure>
+
+  <section id="work history">
+    <h3 class="bigword">Опыт работы</h3>
+    <ul>
+      Работал я более 6 лет в самых разнообразных местах.
+      Здесь представлен небольшой список некоторых мест где я работал :
+      <li>В компании <a href="https://www.valvesoftware.com/ru/" target="_blank" class="link">Valve</a> Работал на должности
+        рабочего в
+        облости <abbr title="Процесс создание геймплея в играх">Game Design</abbr>. <b>Срок : 2 года</b></li>
+      <li>Также в <a href="https://www.microsoft.com/ru-ru" target="_blank" class="link">Microsoft</a> Работал на должности
+        Менеджером
+        по продажам <b>Срок : 3 года</b></li>
+      <li>Также в <a href="https://www.apple.com/" target="_blank" class="link">Apple</a> Стажировался в Apple на должности
+        Генеральный директор <b>Срок : 0.5 года</b></li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+   // Перенеси ту форму сюда и стилизуй, примеры как формы выглядят найди в инете
+  <a href="form1.html">Заполнить форму</a>
+  Как можно со мной связаться
+  <address>
+    <a href="mailto:kekk1185@gmail.com">Написать на почту</a>
+    // ССылку на телефон сделай чтобы при нажатии звонило tel:
+    или позвонить по номеру: +6 (666)-666-66-66
+  </address>
+</footer>
+</body>
+</html>

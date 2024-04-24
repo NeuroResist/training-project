@@ -1,0 +1,24 @@
+a {
+    color: crimson;
+}
+body {
+    background: rebeccapurple;
+}
+.link:hover {
+    color: #811d1d;
+    text-decoration-color: darkblue;
+}
+
+
+.bigword, header, footer, main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Times New Roman";
+    color: wheat;
+    font-size: 20px;
+}
+.bigword {
+    color: darkseagreen;
+}
