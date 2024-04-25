@@ -17,18 +17,16 @@
     </ul>
   </nav>
 </header>
-// Зачем нужна картинка space если она не юзается?
-ANOTHER TEST
+
 <main class="app">
   // test
    // Все id заменяй на классы, пиши только классы
-  <section id="start">
-    // Классы называй по-нормальному, папку с картинками тоже
+  <section class="section start">
     <h1 class="bigword">Резюме</h1>
     <p class="kek">Это моё резюме, где есть информация обо мне, где я работал и на каких должностях.</p>
   </section>
 
-  <section id="information">
+  <section class="information">
     <h2 class="bigword">Обо мне</h2>
     <p>Привет, меня зовут Ян, в данный момент мне 15 лет(01.11.2008).<br>
       Учусь в 9 классе.<br>
@@ -39,7 +37,7 @@ ANOTHER TEST
 
   </section>
 
-  <section id="skils">
+  <section class="skils">
     <h3 class="bigword">Мои умения</h3>
     Знаю Английский язык на уровне <b>B2</b><br>
     Умение работать в команде<br>
@@ -51,7 +49,7 @@ ANOTHER TEST
     <figcaption>Моё фото :</figcaption>
   </figure>
 
-  <section id="work history">
+  <section class="work history">
     <h3 class="bigword">Опыт работы</h3>
     <ul>
       Работал я более 6 лет в самых разнообразных местах.
@@ -69,13 +67,27 @@ ANOTHER TEST
 </main>
 
 <footer>
-   // Перенеси ту форму сюда и стилизуй, примеры как формы выглядят найди в инете
-  <a href="form1.html">Заполнить форму</a>
+  <form class="form">
+    <span> Написать мне</span> <br>
+    <label for="name"></label>
+    <input type="text" id="name" name="name" placeholder="Имя">
+
+    <label for="surname"></label>
+    <input type="text" id="surname" name="surname" placeholder="Фамилия">
+
+    <label for="message"></label>
+    <textarea id="message" placeholder="Введите текст" rows="5" cols="50">
+    </textarea>
+
+
+    <input type="submit" value="Отправить">
+
+  </form>
   Как можно со мной связаться
   <address>
     <a href="mailto:kekk1185@gmail.com">Написать на почту</a>
     // ССылку на телефон сделай чтобы при нажатии звонило tel:
-    или позвонить по номеру: +6 (666)-666-66-66
+    или позвонить по номеру: <a href="tel: +66666666666">+6 (666)-666-66-66</a>
   </address>
 </footer>
 </body>

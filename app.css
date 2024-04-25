@@ -22,3 +22,20 @@ body {
 .bigword {
     color: darkseagreen;
 }
+form {
+    background: coral;
+    padding: 10px;
+    border-radius: 7px;
+}
+#message, #surname, #name {
+    display: block;
+    text-align: start;
+}
+.form textarea, .form input {
+    border-radius: 7px;
+    margin-bottom: 5px;
+    background: #e5e5e5;
+}
+span {
+    color: rebeccapurple;
+}
